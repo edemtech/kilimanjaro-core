@@ -15,5 +15,6 @@ export default (
 		<Route path="signup" component={requireAuth(SignupPage)} />
 		<Route path="login" component={LoginPage} />
 		<Route path="page00" component={PageZero} />
+		<Route path="page01" component={PageOne} />
 	</Route>
 )

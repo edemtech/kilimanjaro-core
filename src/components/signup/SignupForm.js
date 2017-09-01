@@ -126,7 +126,7 @@ class SignupForm extends React.Component{
 						<TextFieldGroup error={errors.password} label="Пароль" onChange={this.onChange} value={this.state.password} field="password" type="password"/>
 						<TextFieldGroup error={errors.passwordConfirmation} label="Подтвердите пароль" onChange={this.onChange} value={this.state.passwordConfirmation} field="passwordConfirmation" type="password"/>
 
-			      		<div className={classnames("form-group", { 'has-error': errors.permission })}>
+							<div className={classnames('form-group', { 'has-error': errors.permission })}>
 							<label className="control-label">Права пользователя</label>
 							<select
 								className="form-control"
