@@ -1,15 +1,9 @@
 import { combineReducers } from 'redux';
 import { routerReducer as routing } from 'react-router-redux';
 
-import flashMessages from './reducers/flashMessages';
-import auth from './reducers/auth';
-import edit from './reducers/editUser';
-import table from './reducers/table';
+// import reducer from './reducers/reducer';
 
 export default combineReducers({
-	flashMessages,
-	auth,
-	table,
-	edit,
+	//imported reducers
 	routing
 });

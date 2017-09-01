@@ -1,0 +1,4 @@
+{
+    "apiPrefix": "http://localhost:",
+    "serverPort": "8080"
+}
